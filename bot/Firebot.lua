@@ -326,14 +326,14 @@ function create_config( )
    "hacker"
 
     },
-    sudo_users = {105831687,65609166,68747297,85831686,176972874},--Sudo users
-    parsa = {105831687},
+    sudo_users = {189308877},--Sudo users
+    parsa = {189308877},
     moderation = {data = 'data/moderation.json'},
     about_text = [[ ]],
     help_text_realm = [[ ]],
     help_text = [[ ]],
 	help_text_super =[[
-🔥Fire Bot🔥 SuperGroup Commands:
+🔥MonsterTG Bot🔥 SuperGroup Commands:
 
 🔷!owner
 دریافت آیدی مدیر اصلی گروه
@@ -487,7 +487,7 @@ function create_config( )
 
 با دستور help> راهنمای html را بگیرید
 
-🔥Fire Bot🔥
+
 ]],
   }
   serialize_to_file(config, './data/config.lua')
